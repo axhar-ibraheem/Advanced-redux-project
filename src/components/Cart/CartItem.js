@@ -9,7 +9,7 @@ const CartItem = (props) => {
     dispatch(increment({ id: id }));
   };
   const decrement = () => {
-    dispatch(removeFromCart({ cartItem: props.cartItem }));
+    dispatch(removeFromCart({ id: id }));
   };
 
   return (
